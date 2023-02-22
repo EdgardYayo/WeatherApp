@@ -1,0 +1,35 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  border: 1px solid var(--blueS);
+  border-radius: 10px;
+  padding: 5px 15px;
+  transition: all ease 500ms;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px var(--sun);
+}
+
+.cardTitle {
+  margin-bottom: 15px;
+  font-variant-caps: small-caps;
+  color: var(--blueM);
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.cardBody {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+#min > p,
+#max > p {
+  font-style: italic;
+}

@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  --blueS: #00204a;
+  --blueM: #005792;
+  --blueL: #00bbf0;
+  --sun: #fdb44b;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px var(--blueL); 
+  border-radius: 3px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: radial-gradient(var(--sun), var(--blueL), var(--blueS));
+  border-radius: 3px;
+}

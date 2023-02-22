@@ -1,0 +1,13 @@
+.nav{
+  background: var(--blueS);
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.nav a {
+  color: var(--sun);
+  font-size: 25px;
+  font-variant: small-caps;
+}
+
